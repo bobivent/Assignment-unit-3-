@@ -14,7 +14,7 @@ def main():
 
             # TODO: We will add validation here
             if task.strip() == "":
-                print("Error: Task cannot be empty or spaces only!")
+                print("❌ Error: Task description cannot be blank.")
                 continue
 
             tasks.append(task)

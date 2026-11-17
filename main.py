@@ -12,7 +12,7 @@ def main():
         if choice == '1':
             task = input("Enter the task description: ")
 
-            # TODO: We will add validation here
+            # Use .strip() to ensure users cannot bypass validation by typing spaces
             if task.strip() == "":
                 print("❌ Error: Task description cannot be blank.")
                 continue
